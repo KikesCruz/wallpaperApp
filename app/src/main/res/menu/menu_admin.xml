@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/HomeAdmin"
+            android:title="@string/HomeAdmin"
+            android:icon="@drawable/home_ico"/>
+
+        <item
+            android:id="@+id/ProfileAdmin"
+            android:title="@string/ProfileAdmin"
+            android:icon="@drawable/profile_ico"/>
+        <item
+            android:id="@+id/RegisterAdmin"
+            android:title="@string/RegisterAdmin"
+            android:icon="@drawable/register_ico"/>
+        <item
+            android:id="@+id/ListenAdmin"
+            android:title="@string/ListenAdmin"
+            android:icon="@drawable/listen_ico"/>
+        <item
+            android:id="@+id/exit"
+            android:title="@string/exit"
+            android:icon="@drawable/exit_ico"/>
+
+    </group>
+</menu>

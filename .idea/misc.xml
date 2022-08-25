@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/activity_main_admin.xml" value="0.196875" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/fragment_home_admin.xml" value="0.196875" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/fragment_listen_admin.xml" value="0.196875" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/fragment_profile_admin.xml" value="0.18229166666666666" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/header.xml" value="0.196875" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/layout/load.xml" value="0.10833333333333334" />
+        <entry key="..\:/android/wallpapersApp/app/src/main/res/menu/menu_admin.xml" value="0.33" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.1" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/drawable/ico_about.xml" value="0.1" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/drawable/input.xml" value="0.1085" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/font/.xml" value="0.18846153846153846" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/activity_main_admin.xml" value="0.16367521367521368" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_about_us.xml" value="0.16367521367521368" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_home_admin.xml" value="0.2" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_home_client.xml" value="0.16367521367521368" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_listen_admin.xml" value="0.22395833333333334" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_profile_admin.xml" value="0.22395833333333334" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_register_admin.xml" value="0.2" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/layout/fragment_share.xml" value="0.16367521367521368" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/menu/menu_admin.xml" value="0.22395833333333334" />
+        <entry key="..\:/apps/wallpapersApp/app/src/main/res/menu/menu_client.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

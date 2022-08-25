@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Wallpapers</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name_load">Wallpapers App</string>
+    <string name="developer">By Enrique</string>
+
+    <!--Variables del menu de admin-->
+    <string name="HomeAdmin">Inicio</string>
+    <string name="ProfileAdmin">Perfil</string>
+    <string name="RegisterAdmin">Registrar</string>
+    <string name="ListenAdmin">Listar</string>
+    <string name="exit">Cerrar Sesion</string>
+
+    <!--Variables del menu de client-->
+    <string name="Options">Opciones</string>
+    <string name="HomeClient">Inicio</string>
+
+    <string name="MoreOptions">Mas Opciones</string>
+    <string name="AboutUs">Acerca de</string>
+    <string name="Share">Compartir</string>
+
+    <!--Form de Admin-->
+    <string name="form_title">Registrar administrador</string>
+    <string name="admin_name">Nombre</string>
+    <string name="admin_firtsname">Apellidos</string>
+    <string name="admin_age">Edad</string>
+    <string name="admin_email">Correo</string>
+    <string name="admin_password">Contrasena</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
