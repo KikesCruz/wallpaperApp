@@ -3,47 +3,162 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusable="auto"
-    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
     tools:context=".fragmentosAdmin.RegisterAdmin">
 
-
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="15dp">
 
-        <LinearLayout
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/form_title"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#355764"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/admin"
+            android:layout_marginTop="20dp"
+            />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Registrar Administradores"
-                android:textAlignment="center"
-                android:textSize="24dp"
-
-                />
-        </LinearLayout>
-
-        <LinearLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            >
 
-            <Button
-                android:id="@+id/button2"
-                style="@style/FirebaseUI.Button"
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/name_admin"
+                android:hint="@string/admin_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:inputType="text"
                 android:background="@drawable/input"
-                android:text="Button" />
-        </LinearLayout>
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:typeface="monospace"
+                />
 
-    </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            >
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/firtsname_admin"
+                android:hint="@string/admin_firtsname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:background="@drawable/input"
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:typeface="monospace"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            >
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/age_admin"
+                android:hint="@string/admin_age"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:background="@drawable/input"
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:typeface="monospace"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            >
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email_admin"
+                android:hint="@string/admin_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/input"
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:typeface="monospace"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:endIconMode="password_toggle"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            >
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/pass_admin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/input"
+                android:fontFamily="monospace"
+                android:hint="@string/admin_password"
+                android:inputType="textPassword"
+                android:paddingTop="8dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_registrar"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="monospace"
+            android:text="REGISTRAR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 </ScrollView>
