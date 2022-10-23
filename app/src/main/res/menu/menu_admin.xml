@@ -8,6 +8,7 @@
         <item
             android:id="@+id/HomeAdmin"
             android:title="@string/HomeAdmin"
+            android:iconTint="#DA3434"
             android:icon="@drawable/home_ico"/>
 
         <item

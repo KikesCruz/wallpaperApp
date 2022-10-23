@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/BackGround"
+    android:background="#FFFFFF"
     tools:context=".MainActivityAdmin"
     tools:openDrawer="start">
 
@@ -17,11 +17,12 @@
         android:orientation="vertical">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbarAdmin"
-            android:background="@color/colorPrimary"
+            android:background="#1B00FF"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
         <FrameLayout
             android:id="@+id/fragment_containerAdmin"
             android:layout_width="match_parent"
@@ -35,6 +36,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/header"
+        android:background="#ffffff"
         app:menu="@menu/menu_admin"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
